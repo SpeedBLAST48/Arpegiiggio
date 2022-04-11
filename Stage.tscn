@@ -144,8 +144,9 @@ motion = Vector2( 150, 0 )
 cycle = 10.0
 
 [node name="Seesaw" parent="Props" instance=ExtResource( 5 )]
-position = Vector2( 5762, 529 )
-rotation = 4.72286
+visible = false
+position = Vector2( 5895, 530 )
+rotation = 4.71239
 scale = Vector2( 0.934, 1 )
 
 [node name="OneWayPlatform" parent="Props" instance=ExtResource( 4 )]
@@ -155,7 +156,7 @@ position = Vector2( 2673, 690 )
 position = Vector2( 4717, 718 )
 
 [node name="Player" parent="." instance=ExtResource( 6 )]
-position = Vector2( 35, 586 )
+position = Vector2( 16, 589 )
 physics_material_override = SubResource( 1 )
 
 [node name="Enemies" type="Node2D" parent="."]
