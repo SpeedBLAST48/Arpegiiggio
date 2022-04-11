@@ -184,7 +184,8 @@ func _integrate_forces(s):
 	if position.y > 1000:
 		get_tree().change_scene("res://DeathScreen.tscn")
 	
-	
+	if position.x > 5900:
+		get_tree().change_scene("res://End Credits.tscn")
 
 func _shot_bullet():
 	shoot_time = 0

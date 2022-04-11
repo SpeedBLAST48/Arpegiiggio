@@ -145,7 +145,7 @@ cycle = 10.0
 
 [node name="Seesaw" parent="Props" instance=ExtResource( 5 )]
 visible = false
-position = Vector2( 5895, 530 )
+position = Vector2( 5954, 529 )
 rotation = 4.71239
 scale = Vector2( 0.934, 1 )
 
@@ -156,7 +156,7 @@ position = Vector2( 2673, 690 )
 position = Vector2( 4717, 718 )
 
 [node name="Player" parent="." instance=ExtResource( 6 )]
-position = Vector2( 16, 589 )
+position = Vector2( 16, 590 )
 physics_material_override = SubResource( 1 )
 
 [node name="Enemies" type="Node2D" parent="."]
