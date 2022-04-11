@@ -7,6 +7,7 @@ func _ready():
 
 func transition():
 	$AnimationPlayer.play("Fade out")
+	$AnimationPlayer.play("Fade in")
 
 
 func _on_AnimationPlayer_animation_finished(anim_name):
