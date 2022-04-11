@@ -1,12 +1,13 @@
 extends CanvasLayer
 
-signal transitioned
+
+func _ready():
+	transition()
+
 
 func transition():
 	$AnimationPlayer.play("Fade out")
-	print("Fading to black")
+
 
 func _on_AnimationPlayer_animation_finished(anim_name):
-
-		emit_signal("transitioned")
-		$AnimationPlayer.play("Fade in")
+	get_tree().change_scene("res://Stage.tscn")
