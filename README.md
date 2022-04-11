@@ -11,8 +11,6 @@ Language: GDScript
 
 Renderer: GLES 3 (particles are not available in GLES 2)
 
-Check out this demo on the asset library: https://godotengine.org/asset-library/asset/119
-
 ## How does it work?
 
 The player and enemies use dynamic character
@@ -22,13 +20,3 @@ which means that they can perfectly interact with physics
 (there is a see-saw, and you can even ride enemies).
 Because of this, all movement must be done in sync with
 the physics engine, inside of `_integrate_forces()`.
-
-## Screenshots
-
-![Screenshot of the beginning](screenshots/beginning.png)
-
-![Screenshot of the seesaw and the player riding an enemy](screenshots/seesaw-riding.png)
-
-## Music
-
-"Pompy" by Hubert Lamontagne (madbr) https://soundcloud.com/madbr/pompy
